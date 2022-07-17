@@ -1,0 +1,9 @@
+# 1
+name = input("What is your name?: ")
+# 2
+age = input("What is our age?: ")
+# f-strings
+print(f"Hello {age} years old {name}!!")
+
+# format method
+print("Hello {} years old {}!!".format(age, name))
