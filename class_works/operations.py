@@ -32,7 +32,7 @@ d4 = (5 + 4j) / (6 + 5j)  # complex and complex
 
 print(d1, d2, d3, d4, sep='\n')
 
-#%%
+
 paper_width = 30
 print('-' * paper_width)
 print(' ABC Mart'.center(paper_width))
@@ -45,4 +45,14 @@ print('-' * paper_width)
 print('Thank you, ', end ='')
 print('Visit us again.')
 print('-' * paper_width)
+
+
+#%%
+passcode = input("Do you have passcode, True/False: ")
+faceid = input("Do you have faceid, True/False: ")          
+if (passcode == 'True' or faceid == 'True'):
+    print("You can access your phone")
+
+else:
+    print("You cannot access your phone")
 #%%
