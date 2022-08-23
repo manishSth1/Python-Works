@@ -12,7 +12,7 @@ class Person:                # creating a class named "Person"
         elif self.gender == 'F':
             print(['she', 'her', 'hers'])
         else:
-            print("Invalid input")
+            print("Invalid input for gender. Enter either 'M' or 'F'")
 
 name = input("Enter your name: ")
 age = int(input("Enter your age: "))
