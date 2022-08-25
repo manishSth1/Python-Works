@@ -16,7 +16,7 @@ House.build_method = 'unspecified'
 
 print(House.build_method)
 
-from tarfile import PAX_NAME_FIELDS
+
 import time
 print(time.__doc__)    # use .__doc__ to see the documentation after you import need
 
