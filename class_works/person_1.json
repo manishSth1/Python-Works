@@ -1,0 +1,24 @@
+{
+  "name": "John Doe",
+  "age": 20,
+  "married": false,
+  "occupation": "programmer",
+  "organization": null,
+  "programming_languages": [
+    {
+      "name": "Python",
+      "version": 3.9,
+      "level": "Beginner"
+    },
+    {
+      "name": "Java",
+      "version": 17,
+      "level": "Expert"
+    },
+    {
+      "name": "C++",
+      "version": 2019,
+      "level": "Mid"
+    }
+  ]
+}
