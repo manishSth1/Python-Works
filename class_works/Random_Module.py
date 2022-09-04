@@ -21,6 +21,12 @@ print('\n')
 options = "12345ABCDEabcde"
 print(''.join(random.choices(options, k=8)))        # Printing out a random password string with 8 characters
 
+print('\n')
+
+options = 'adhdj$$&&322bdd2447852ddndjj####@@@!!sd'
+password = (''.join(random.choices(options, k=8)))
+print(password)
+
 """
 random.seed() -> initializes the random number generator
 
