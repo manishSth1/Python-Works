@@ -1,8 +1,8 @@
-import random
+import random                           # importing random module
 
-WIDTH = 40
+WIDTH = 40                              # setting a variable WIDth to 40
 
-class Game:
+class Game:                             # creating a class "Game"
     def __init__(self):
         self.username = None
         self._consecutive_wins = 0
@@ -14,16 +14,16 @@ class Game:
         self.user_input = None
         self.bot_input = None
  
-    def __get_bot_choice(self):
+    def __get_bot_choice(self):                                # within "Game" class, creating a method for computer "choice"
         return random.choice(['Rock', 'Paper', 'Scissors'])
     
-    def __display_menu(self):
+    def __display_menu(self):                                  # creating method to display the menu
         print('=' * WIDTH)
         print('Welcome to Rock Paper Scissor'.center(WIDTH))
         print('=' * WIDTH)
         print('Please enter your name: ', end = '')
         
-    def start(self):
+    def start(self):                                           # method to start the game
         self.__display_menu()
         self.username = input()
         print('\n')
@@ -120,4 +120,4 @@ class Game:
                     
 if __name__ == "__main__":
     game = Game()
-    game.start()
+    game.start()                                      # calling the start() to play the game
